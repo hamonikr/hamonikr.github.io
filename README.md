@@ -1,108 +1,93 @@
+# 오소리 프로젝트 소개
 
+## 명칭
+오소리(OSORI: Open Source DB Integration)는 “오픈소스 소리내다!” 라는 의미를 담고 있습니다. 자발적인 기여와 협력을 통해 더 나은 오픈소스 생태계를 만들겠다는 의지를 표현하였습니다.
 
-이곳은 하모니카 프로젝트에 대한 안내를 제공합니다.
+## 목적
+오소리 프로젝트는 오픈소스 정보 데이터를 통합∙공개하여 누구나 쉽게 이를 확인할 수 있게 함으로써 보다 투명하고 신뢰성 있는 오픈소스 생태계 구축에 기여하는 것을 목적으로 합니다.
 
-[하모니카 사용자 커뮤니티](https://hamonikr.org) 를 방문해서 보다 다양한 이야기를 나누세요.
+## 비전
+- 오픈소스 정보 데이터를 효율적으로 통합하고, 지속적인 관리와 확산이 용이한 DB 스키마를 구축합니다.
+- 교차 검증을 통해 데이터의 신뢰도를 높이고, 누구나 자유롭게 활용할 수 있도록 공개합니다.
+- 누구나 쉽게 데이터를 기여할 수 있는 환경을 제공함으로써, 자발적인 기여를 통해 데이터를 확장합니다.
 
+## 멤버 소개
+- Board Member : 삼성전자, LG전자, 카카오
+- Sponsor : 한국저작권위원회 (김수빈)
+- 운영위원 : 홍문기, 정윤환(이상 삼성전자), 김경애, 김소임(이상 LG전자), 황은경, 김영환(이상 카카오)
+- Project Manager : 김소임(LG전자)
 
+## 연혁
+1. 오소리 프로젝트 최초 논의
+   - 일시 및 장소 : 2022.3.16. @오픈체인 Korea Work Group
+   - 참석자 : 삼성전자, LG전자, 카카오, SKT, SK주식회사, 라인플러스, 엔씨소프트, 현대자동차, 현대오토에버, 카카오뱅크 등 국내 주요 기업 오픈소스 실무자
+2. 오소리 프로젝트 Kick-off 미팅
+   - 일시 및 장소 : 2023.1.19. @삼성전자 서울R&D캠퍼스
+   - 참석자 : 삼성전자, LG전자, 카카오
+3. 오소리 프로젝트 업무협약 (보도자료 배포)
+   - 일시 및 장소 : 2023.4.26. @한국저작권위원회 서울사무소
+   - 참석자:문화체육관광부, 한국저작권위원회, 삼성전자, LG전자, 카카오
+4. 오소리 프로젝트 대외 발표
+   - 2023.8.31 @공유저작물 및 오픈소스SW 라이선스 콘퍼런스, 김소임/정윤환
+   - 2023.10.11 @EOST, 정윤환
+   - 2023.11.15 @SDC23 Korea, 김소임/김영환
 
-## About HamoniKR OS
-![HamoniKR OS](https://hamonikr.org/layouts/hamonikr-join2/images/re-wallpaper.png)
+# 라이선스
 
- * [하모니카 사용자 가이드](http://pms.invesume.com:8090/30sun/1/1-1)
- * [위키백과 - 하모니카
-   OS](https://ko.wikipedia.org/wiki/%ED%95%98%EB%AA%A8%EB%8B%88%EC%B9%B4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
- * [하모니카 커뮤니티 - 하모니카 소개](https://hamonikr.org/menuDownload_SUN) 
- * [Distrowatch -
-   HamoniKR](https://distrowatch.com/table.php?distribution=hamonikr)
- * [Linuxreviews - HamoniKR](https://linuxreviews.org/HamoniKR)
+## 배포 라이선스
+1. 오픈소스 정보 데이터 : ODC-By 1.0 라이선스 (Open Data Commons Attribution License v1.0)
+2. 소스코드 : Apache 2.0 라이선스 
+3. 오픈소스 정보 데이터와 소스코드를 제외한 컨텐츠 : CC-BY-2.0 라이선스
 
-## Community
-하모니카 OS 와 관련한 이야기는 하모니카 커뮤니티에서 공유됩니다.
- * https://hamonikr.org
+## 보증 부인
+- 오소리 프로젝트는 교차 검증을 통해 최대한 정확한 정보를 제공하고자 노력합니다. 그럼에도 불구하고 정확하지 않은 정보가 포함되어 있을 수 있습니다.
+- 오소리 프로젝트에서 제공되는 정보는 법적 분쟁의 근거로 사용될 수 없습니다.
+- 오소리 프로젝트는 제공되는 정보의 사용으로 인해 발생한 그 어떠한 유형의 손해에 대해서도 책임지지 않습니다.
 
-## System requirements
-* CPU : x86 processor (64bit)
-* RAM : 최소 1 GB 이상 (4 GB 이상 권장)
-* HDD : 최소 15 GB (20 GB 이상 권장)
-* VIDEO : 해상도 800x600 (1024x768 이상 권장)
+---------------------------------------------------------------------
 
-## Download
- * [HamoniKR 3.0 Public Edition (Kernel 4.19) ISO
-   Image](http://gofile.me/4mEYi/CWzhlpTWZ) 
-   - This version is specific to the public sector
-   - Remove some packages
-   - Applyed public sector service requirements.
+# About : What is the OSORI project?
 
- * [HamoniKR 3.0 Community Edition (Kernel 4.15) ISO
-   Image](http://invesume.com/linkfile/download_count.php?type=hamonikr-sun-3.0-amd64-20200423.iso)
-   - Anyone can use
+## Name
+OSORI (Open Source DB Integration) means "Open Source sounds!" It expresses the will to create a better open source ecosystem through voluntary contribution and collaboration.
 
-## Release History
+## Goal
+The goal of the OSORI project is to contribute to building a more transparent and reliable open source ecosystem by integrating and disclosing open source information data (e.g. license and any restriction to use), so that anyone can easily check it out.
 
- * 자세한 내용은 [HamoniKR Launchapd](https://launchpad.net/hamonikr/+series) 를 참고하세요.
+## Vision
+- We build a DB schema that efficiently integrates open source information data, of which is easy to manage and distribute consistently.
+- We increase the reliability of the data through cross-validation and disclose it for its complimentary usage by anyone.
+- We expand volume of the data through voluntary contributions by providing an environment where anyone can easily contribute their data to the OSORI project, 
 
-## HamoniKR DaaS
- [스마일서브 - 하모니카 DaaS 서비스](https://www.iwinv.kr/server/vdi.html)를 이용하면 **설치 없이** 바로 하모니카 데스크톱을 사용할 수
- 있습니다. 
-  * [하모니카 DaaS 서비스 바로가기](https://www.iwinv.kr/server/vdi.html)
+## Member introduction
+- Board Members: Kakao, LG Electronics, Samsung Electronics
+- Sponsors: Korea Copyright Commission
+- Steering Committee: Eunkyung Hwang, Younghwan Kim (both from Kakao), Kyoungae Kim, Soim Kim (both from LG Electronics), Moonki Hong, Yoonhwan Jung (both from Samsung Electronics)
+- Project Manager: Soim Kim (LG Electronics)
 
-## HamoniKR Subscription
- * 하모니카는 서브스크립션 사용자를 위해 하모니카 OS 사용 중 발생하는 문제를 OS 개발팀이 직접 지원하고 있습니다.
+## History
+1. First ever proposal of the OSORI project
+   - Date and Place: 2022.3.16. @ OpenChain Korea Work Group
+   - Participants: open source delegation from companies such as Kakao, LG Electronics, Samsung Electronics, Hyundai AutoEver, Hyundai Motors, Kakao Bank, Line Plus, NCsoft, SK Holdings, SKT, etc.
+2. Kick-off meeting
+   - Date and place: 2023.1.19. @ Samsung Electronics Seoul R&D Campus
+   - Participants: Kakao, LG Electronics, Samsung Electronics
+3. MOU ceremony (Press Release Distribution)
+   - Date and Place: 2023.4.26. @Korea Copyright Commission Seoul Office
+   - Attendees: Ministry of Culture, Sports and Tourism, Korea Copyright Commission, Kakao, LG Electronics, Samsung Electronics 
+4. OSORI presentation in public
+   - 2023.8.31 @ Sharing Works and Open Source SW License Conference, Soim Kim and Yoonhwan Jung
+   - 2023.10.11 @ EOST, Yoonhwan Jung
+   - 2023.11.15 @ SDC23 Korea, Soim Kim and Younghwan Kim
 
-![하모니카 기술지원](https://hamonikr.org/layouts/hamonikr-join2/images/HTSupport1.png)
-  * 기술지원을 위한 라이선스 키 필요
-  * 라이선스 키 발급 관련 문의 : sales@invesume.com
+# License
 
-## Source
- * Repository : https://apt.hamonikr.org    
- * Github : https://github.com/hamonikr
+## License policy according to disclosing form of our assets
+1. Open source information data: ODC-By 1.0 License (Open Data Commons Attribution License v1.0)
+2. Source code: Apache 2.0 License
+3. Contents excluding the open source information data and the source code: CC-BY-2.0 License
 
-## License
-하모니카 OS는 오픈소스 라이선스로 배포됩니다.
-* [사용된 프로그램의 오픈소스 라이선스 상세
-   안내](http://pms.invesume.com:8090/hl/os/3-0)
-
-### 라이선스 관련 자주 묻는 질문
-
-Q. 하모니카OS를 기업에서 단순 재배포를 하여도 괜찮을까요?
-> 수정이 없는 하모니카 OS를 재배포 하는 것은 자유롭게 허용됩니다
-
-Q. 재배포가 가능하다면 하모니카OS를 상업적 용도로 재배포가 가능할까요?
-> 가능합니다. 하모니카 프로젝트의 자유로운 사용이 가능하다는 의미는 배포하는 오픈소스 라이선스를 준수하는 한 기업의 상업적 용도 이더라도 사용 및 배포에 차별을 두지 않는다는 의미입니다.
-
-Q. 관련하여 문서나 근거가 있으시다면 공유 부탁드리겠습니다.
-> 문의하신 내용은 오픈소스 프로젝트로 운영되는 하모니카OS에 대한 이용약관을
-참고하실수 있습니다. https://hamonikr.org/page_YaNU21
-
-​하모니카 OS를 사용하실 계획이 있으시면 커뮤니티에 공유해주시고 함께 참여하며
-문제점을 하나씩 해결해서 더 좋은 하모니카를 많은 사람이 쓸수 있도록 해주세요.
-
- 
-## References
-
- * [하모니카 사용자 가이드](http://pms.invesume.com:8090/30sun/1/1-1) 
- * [유튜브로 배우는
-   하모니카 OS](https://www.youtube.com/channel/UC3pfT1qsACufvHuL28Z7zaw)
- * [Distrowatch 에 소개된
-   하모니카 OS](https://distrowatch.com/table.php?distribution=hamonikr)
- * [하모니카, 오픈소스소프트웨어재단 프로젝트에
-   참여](https://www.etnews.com/20200421000272)
- * [국방부 40만 장병이 사용하는 하모니카
-   OS](https://zdnet.co.kr/view/?no=20190624144257)
- * [하모니카OS 를 사용하는 지능형 VMS
-   VIVEex](http://viveex.net/viveex/product.html)
- * [대만의 인공지능 엣지 디바이스 공급사 Touch Cloud 와 하모니카OS
-   협력](https://hamonikr.org/hamoni_notice/75813)
- 
-<hr>
-
-## News
-
-### 하모니카 OS 에서는 이스트소프트 알집, 팀업 사용 가능 합니다.
-
-* 과기부, 행안부 시범운영에 한해서 현재 하모니카OS에 포함하여 배포
-* 리눅스 버전의 알집과 팀업은 무료SW가 아니며, 추후 가격 정책에 따라 결정
-* 하모니카OS 3.0, 알집 리눅스 v1.0는 TTA에서 시행하는 SW상호운용성 시험에 통과 하였음(2020년 8월 14일)
-
-
+## Disclaimer of warranties
+- The OSORI project strives to provide as accurate information as possible through cross-validation. Nevertheless, there may be incorrect information included.
+- The information provided by the OSORI project cannot be used as a basis for legal disputes.
+- The OSORI project does not guarantee viability for any type of damage caused by the use of our information data, source codes, and any form of assets.

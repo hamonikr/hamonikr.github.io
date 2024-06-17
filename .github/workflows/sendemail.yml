@@ -1,0 +1,27 @@
+name: Send email
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'message from contact us form'
+        required: true
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{secrets.GMAIL_USERNAME}}
+          password: ${{secrets.GMAIL_PASSWORD}}
+          subject: Message from HamoniKR
+          to: chaeya@gmail.com
+          from: ivsnoti@gmail.com
+          body: ${{github.event.inputs.message}}
